@@ -2,10 +2,14 @@
   const mobileMenu = document.querySelector(".mobile-menu");
   const closeBtn = document.querySelector(".mobile-menu .close");
 
-  hamburger.addEventListener("click", () => {
-    mobileMenu.classList.add("active");
+hamburger.addEventListener("click", () => {
+    
+  mobileMenu.classList.add("active");
+  
   });
 
-  closeBtn.addEventListener("click", () => {
-    mobileMenu.classList.remove("active");
+closeBtn.addEventListener("click", () => {
+    
+  mobileMenu.classList.remove("active");
+  
   });
