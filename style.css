@@ -82,7 +82,9 @@ body{
 
 .contact-ways{
     justify-content: space-between;
+
 }
+
 .contact-ways a{
     color: #fff;
     text-decoration: none;
